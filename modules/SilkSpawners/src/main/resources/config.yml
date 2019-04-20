@@ -126,7 +126,7 @@ notifyOnHold: true
  
 # Configure displaying with BarAPI, time is in seconds
 barAPI:
-  enable: false
+  enable: true
   displayTime: 3
  
 # Configure displaying with 1.9 BossBarApi, time is in seconds
@@ -134,20 +134,20 @@ vanillaBossBar:
   enable: true
   displayTime: 3
  
-  # Valid colors are BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
-  color: RED
+  # Valid colours are BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+  color: GREEN
  
   # Valid styles are SEGMENTED_10, SEGMENTED_12, SEGMENTED_20, SEGMENTED_6, SOLID
   style: SOLID
  
 # Prevent that a spawner is changed via eggs in other territories
-factionsSupport: false
+factionsSupport: true
 
 # Prevent that a spawner is changed via eggs in other kingdoms
-feudalSupport: false
+feudalSupport: true
  
 # Puts more information out on startup
-verboseConfig: false
+verboseConfig: true
  
 # Internal stuff, do NOT change unless advised - the plugin might break otherwise
 useReflection: true
